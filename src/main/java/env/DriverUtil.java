@@ -27,7 +27,7 @@ public class DriverUtil {
 		if (driver != null) {
 			return driver;
 		}
-        System.setProperty("webdriver.chrome.driver", "webdrivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         //System.setProperty("webdriver.gecko.driver", "./geckodriver");
         DesiredCapabilities capabilities = null;
 		capabilities = DesiredCapabilities.firefox();
